@@ -1,0 +1,1676 @@
+{
+    "RequestData": {
+        "CategoryClassifierVersion": "1.0",
+        "CompletionDate": 1650975114805,
+        "Equipments": [
+            {
+                "Bays": [
+                    {
+                        "OrderNumber": 2,
+                        "PhotoExternalId": "zDRtHIIVom1gOZ8A",
+                        "Shelfs": [
+                            {
+                                "EmptySpaces": [
+                                    {
+                                        "Height": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6960091645462084,
+                                        "X2": 0.7558104706604448,
+                                        "Y1": 0.32567050457000735,
+                                        "Y2": 0.39043245315551756
+                                    }
+                                ],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.2324913572694459,
+                                        "X2": 0.27322460734261184,
+                                        "Y1": 0.39047238826751707,
+                                        "Y2": 0.40657801628112794
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.32802922370902704,
+                                        "X2": 0.37171442228351004,
+                                        "Y1": 0.39014763832092286,
+                                        "Y2": 0.406950569152832
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.4174909164952686,
+                                        "X2": 0.45984521840042925,
+                                        "Y1": 0.3913332223892212,
+                                        "Y2": 0.4071503162384033
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.5320769596794518,
+                                        "X2": 0.5741173846416493,
+                                        "Y1": 0.3919816255569458,
+                                        "Y2": 0.40825686454772947
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6709004698881373,
+                                        "X2": 0.7118073621227887,
+                                        "Y1": 0.3931936264038086,
+                                        "Y2": 0.4089814186096191
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.19392901528762357,
+                                        "X2": 0.2303643995715726,
+                                        "Y1": 0.3903305768966675,
+                                        "Y2": 0.4052027702331543
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.3745421728159957,
+                                        "X2": 0.4144873326328369,
+                                        "Y1": 0.3921650409698486,
+                                        "Y2": 0.40569334030151366
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.7956508037078889,
+                                        "X2": 0.8232544453409535,
+                                        "Y1": 0.3993194580078125,
+                                        "Y2": 0.4166499137878418
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4612741970021",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.55322265625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.3541409336689484,
+                                        "X2": 0.40945821994301185,
+                                        "Y1": 0.33027818202972414,
+                                        "Y2": 0.38862178325653074
+                                    },
+                                    {
+                                        "Barcode": "4603934000397",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.359375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.469746219504016,
+                                        "X2": 0.525975031857684,
+                                        "Y1": 0.32550907135009766,
+                                        "Y2": 0.3891117572784424
+                                    },
+                                    {
+                                        "Barcode": "4607017097915",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.344482421875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5271989423452134,
+                                        "X2": 0.5822776770616546,
+                                        "Y1": 0.33027071952819825,
+                                        "Y2": 0.38868017196655275
+                                    },
+                                    {
+                                        "Barcode": "4680036751976",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.423828125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.4117448153778616,
+                                        "X2": 0.4675471120272665,
+                                        "Y1": 0.33102002143859866,
+                                        "Y2": 0.3891314506530762
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.396484375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.30161570411070826,
+                                        "X2": 0.3536761836628512,
+                                        "Y1": 0.330975341796875,
+                                        "Y2": 0.38849468231201173
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.92529296875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5837094309922932,
+                                        "X2": 0.6403278267470408,
+                                        "Y1": 0.3309004545211792,
+                                        "Y2": 0.3891501188278198
+                                    },
+                                    {
+                                        "Barcode": "4601642016440",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.92626953125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.7558104706604448,
+                                        "X2": 0.820907862699987,
+                                        "Y1": 0.32567050457000735,
+                                        "Y2": 0.39043245315551756
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.2218017578125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.24095039486761025,
+                                        "X2": 0.2990375880024064,
+                                        "Y1": 0.3327546358108521,
+                                        "Y2": 0.38781716823577883
+                                    },
+                                    {
+                                        "Barcode": "4601025115401",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.35302734375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.17594620687780468,
+                                        "X2": 0.23776356263413762,
+                                        "Y1": 0.32914485931396487,
+                                        "Y2": 0.3872837066650391
+                                    },
+                                    {
+                                        "Barcode": "4607001710042",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.99951171875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6463109868870317,
+                                        "X2": 0.6960091645462084,
+                                        "Y1": 0.37123129367828367,
+                                        "Y2": 0.389119291305542
+                                    }
+                                ],
+                                "X1": 0.16727348272063605,
+                                "X2": 0.8117184197369277,
+                                "Y1": 0.2995866537094116,
+                                "Y2": 0.2995866537094116
+                            },
+                            {
+                                "EmptySpaces": [],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6472783401282843,
+                                        "X2": 0.6889965998146462,
+                                        "Y1": 0.8911760330200196,
+                                        "Y2": 0.9108535766601562
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.3641100197751366,
+                                        "X2": 0.4086904535680606,
+                                        "Y1": 0.8906194686889648,
+                                        "Y2": 0.9109934806823731
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.5388003219302809,
+                                        "X2": 0.581387237008975,
+                                        "Y1": 0.8921226501464844,
+                                        "Y2": 0.91190185546875
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.19776891099054533,
+                                        "X2": 0.24559352846969304,
+                                        "Y1": 0.8901926040649414,
+                                        "Y2": 0.9089449882507324
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4601025115401",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.92919921875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5177641520266975,
+                                        "X2": 0.6287461994341832,
+                                        "Y1": 0.7424187183380127,
+                                        "Y2": 0.8767899513244629
+                                    },
+                                    {
+                                        "Barcode": "4605035008241",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.272705078125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6244276922029461,
+                                        "X2": 0.7272329340368107,
+                                        "Y1": 0.7443384647369384,
+                                        "Y2": 0.8836602210998535
+                                    },
+                                    {
+                                        "Barcode": "4650075423776",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.39111328125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.1972874890505089,
+                                        "X2": 0.27272317908184834,
+                                        "Y1": 0.782764196395874,
+                                        "Y2": 0.873438835144043
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.70947265625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.3574351490350221,
+                                        "X2": 0.43361000910509884,
+                                        "Y1": 0.744542407989502,
+                                        "Y2": 0.8540422439575195
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.60888671875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.27109491862317897,
+                                        "X2": 0.3551514434020552,
+                                        "Y1": 0.7830628871917724,
+                                        "Y2": 0.8763064384460449
+                                    },
+                                    {
+                                        "Barcode": "4680000237994",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.94580078125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.43058476760657843,
+                                        "X2": 0.5211131466042859,
+                                        "Y1": 0.7593335628509521,
+                                        "Y2": 0.8798125267028809
+                                    },
+                                    {
+                                        "Barcode": "4612741970021",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.438720703125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.7204964565312825,
+                                        "X2": 0.7821077948182232,
+                                        "Y1": 0.7590121746063232,
+                                        "Y2": 0.8817306518554687
+                                    }
+                                ],
+                                "X1": 0.1955563706984505,
+                                "X2": 0.7862134729042014,
+                                "Y1": 0.739773941040039,
+                                "Y2": 0.739773941040039
+                            },
+                            {
+                                "EmptySpaces": [],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.48443181159965204,
+                                        "X2": 0.5235748132235302,
+                                        "Y1": 0.6136292934417724,
+                                        "Y2": 0.6286949634552002
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6008292524673192,
+                                        "X2": 0.6382542827499025,
+                                        "Y1": 0.6152784347534179,
+                                        "Y2": 0.6294154644012451
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.24062338679191597,
+                                        "X2": 0.28219540980058205,
+                                        "Y1": 0.6113828659057617,
+                                        "Y2": 0.6282267570495605
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6996193845115765,
+                                        "X2": 0.7373604511495188,
+                                        "Y1": 0.6128456115722656,
+                                        "Y2": 0.629544448852539
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4650075423790",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.394287109375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6661062568085002,
+                                        "X2": 0.7235936255162266,
+                                        "Y1": 0.5434747695922851,
+                                        "Y2": 0.6082125663757324
+                                    },
+                                    {
+                                        "Barcode": "4670010850764",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.373291015625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.2137243487212214,
+                                        "X2": 0.29699186231789804,
+                                        "Y1": 0.515008544921875,
+                                        "Y2": 0.6068603992462158
+                                    },
+                                    {
+                                        "Barcode": "4860019001810",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.8203125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.38318493512617063,
+                                        "X2": 0.44940401488114595,
+                                        "Y1": 0.5132869720458985,
+                                        "Y2": 0.6063249111175537
+                                    },
+                                    {
+                                        "Barcode": "4607008487534",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.44091796875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6092484838384495,
+                                        "X2": 0.6631851434459547,
+                                        "Y1": 0.5484559059143066,
+                                        "Y2": 0.6082377910614014
+                                    },
+                                    {
+                                        "Barcode": "4650075423790",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.47314453125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.723518998764308,
+                                        "X2": 0.7846254156233741,
+                                        "Y1": 0.5424036979675293,
+                                        "Y2": 0.6084461212158203
+                                    },
+                                    {
+                                        "Barcode": "4600494000416",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.76953125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.2934228934805053,
+                                        "X2": 0.36783306903819263,
+                                        "Y1": 0.5137159347534179,
+                                        "Y2": 0.6087146282196045
+                                    },
+                                    {
+                                        "Barcode": "4650075423776",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.49169921875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.555207918387422,
+                                        "X2": 0.6059037445735237,
+                                        "Y1": 0.5470973014831543,
+                                        "Y2": 0.6092315673828125
+                                    },
+                                    {
+                                        "Barcode": "4603934000977",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.378662109375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.449266860437939,
+                                        "X2": 0.5029945016279429,
+                                        "Y1": 0.540471076965332,
+                                        "Y2": 0.6071009635925293
+                                    },
+                                    {
+                                        "Barcode": "4650075423776",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.44384765625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5037719218465465,
+                                        "X2": 0.5559642843351652,
+                                        "Y1": 0.5450920581817627,
+                                        "Y2": 0.6102280139923095
+                                    },
+                                    {
+                                        "Barcode": "3068320080000",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.6640625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.1790888346692898,
+                                        "X2": 0.21323941773604155,
+                                        "Y1": 0.5152924060821533,
+                                        "Y2": 0.6053206920623779
+                                    }
+                                ],
+                                "X1": 0.1873117976828743,
+                                "X2": 0.7956919595676704,
+                                "Y1": 0.49834747314453126,
+                                "Y2": 0.49834747314453126
+                            },
+                            {
+                                "EmptySpaces": [],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.31758284395120645,
+                                        "X2": 0.35926496523600093,
+                                        "Y1": 0.48233652114868164,
+                                        "Y2": 0.49848041534423826
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.22976019280758161,
+                                        "X2": 0.2717371850306484,
+                                        "Y1": 0.48123745918273925,
+                                        "Y2": 0.4976754665374756
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.4190516318044355,
+                                        "X2": 0.459197458193776,
+                                        "Y1": 0.48337368965148925,
+                                        "Y2": 0.4988251686096191
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.4728652684175013,
+                                        "X2": 0.5161107407648283,
+                                        "Y1": 0.482970142364502,
+                                        "Y2": 0.49911108016967776
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.5868457869610106,
+                                        "X2": 0.6279402940255918,
+                                        "Y1": 0.4818082809448242,
+                                        "Y2": 0.4983231544494629
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6695766230651665,
+                                        "X2": 0.7096393120772633,
+                                        "Y1": 0.483766508102417,
+                                        "Y2": 0.4991746425628662
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.85595703125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.24315552011861016,
+                                        "X2": 0.29796251818987385,
+                                        "Y1": 0.4198561668395996,
+                                        "Y2": 0.47902593612670896
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.451171875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.4157963176175533,
+                                        "X2": 0.4689103363703987,
+                                        "Y1": 0.4244546413421631,
+                                        "Y2": 0.4789483070373535
+                                    },
+                                    {
+                                        "Barcode": "4607811040049",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.334716796875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6926235869821475,
+                                        "X2": 0.74181411219189,
+                                        "Y1": 0.4232490539550781,
+                                        "Y2": 0.4811725616455078
+                                    },
+                                    {
+                                        "Barcode": "4607017094976",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.25390625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.47054021638836496,
+                                        "X2": 0.5222442976269837,
+                                        "Y1": 0.4294719219207764,
+                                        "Y2": 0.4795318603515625
+                                    },
+                                    {
+                                        "Barcode": "4601642016440",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.88818359375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.2993793785261934,
+                                        "X2": 0.3569167312796729,
+                                        "Y1": 0.4236748218536377,
+                                        "Y2": 0.47916464805603026
+                                    },
+                                    {
+                                        "Barcode": "4607017096475",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.9306640625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.7423103959701808,
+                                        "X2": 0.790851636682167,
+                                        "Y1": 0.4254340648651123,
+                                        "Y2": 0.4814809799194336
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.7861328125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.3630040513117033,
+                                        "X2": 0.41437840933110043,
+                                        "Y1": 0.42187066078186036,
+                                        "Y2": 0.47985477447509767
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.492919921875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.18611195829234684,
+                                        "X2": 0.24330264596611603,
+                                        "Y1": 0.41770215034484864,
+                                        "Y2": 0.48102455139160155
+                                    },
+                                    {
+                                        "Barcode": "4604369000143",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.390625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6365529198304175,
+                                        "X2": 0.689420098692768,
+                                        "Y1": 0.4247633934020996,
+                                        "Y2": 0.4802728176116943
+                                    },
+                                    {
+                                        "Barcode": "4607017090350",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.517578125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5845409317889894,
+                                        "X2": 0.634551017515121,
+                                        "Y1": 0.4426823616027832,
+                                        "Y2": 0.4789440155029297
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.7939453125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5249774468428883,
+                                        "X2": 0.5793758713864139,
+                                        "Y1": 0.43906702995300295,
+                                        "Y2": 0.47898015975952146
+                                    }
+                                ],
+                                "X1": 0.18248716229330614,
+                                "X2": 0.7976484507105229,
+                                "Y1": 0.40742993354797363,
+                                "Y2": 0.40742993354797363
+                            },
+                            {
+                                "EmptySpaces": [
+                                    {
+                                        "Height": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.35395058781745903,
+                                        "X2": 0.4129081035379813,
+                                        "Y1": 0.22307176589965821,
+                                        "Y2": 0.28196513652801514
+                                    }
+                                ],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.23218884899762618,
+                                        "X2": 0.27804727385617195,
+                                        "Y1": 0.2834474086761475,
+                                        "Y2": 0.29904022216796877
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.41056298167598854,
+                                        "X2": 0.4549573566861505,
+                                        "Y1": 0.2836318016052246,
+                                        "Y2": 0.29897940158843994
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.31837125176817765,
+                                        "X2": 0.3630220570003577,
+                                        "Y1": 0.28224835395812986,
+                                        "Y2": 0.2993682861328125
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6512824623195239,
+                                        "X2": 0.6928571210815556,
+                                        "Y1": 0.2844936609268188,
+                                        "Y2": 0.30164709091186526
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.17218208114512878,
+                                        "X2": 0.2170587355090726,
+                                        "Y1": 0.28403046131134035,
+                                        "Y2": 0.29888865947723386
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.502480624989838,
+                                        "X2": 0.5447234631080905,
+                                        "Y1": 0.2825925827026367,
+                                        "Y2": 0.30004167556762695
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.3678414843953239,
+                                        "X2": 0.40871839890494926,
+                                        "Y1": 0.28397302627563475,
+                                        "Y2": 0.30063772201538086
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.45803061335441597,
+                                        "X2": 0.49872969390202265,
+                                        "Y1": 0.28254246711730957,
+                                        "Y2": 0.3010904788970947
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.2804448567369602,
+                                        "X2": 0.31830602481139436,
+                                        "Y1": 0.2827270030975342,
+                                        "Y2": 0.30005383491516113
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.5474041830612643,
+                                        "X2": 0.5863197159940817,
+                                        "Y1": 0.2787492275238037,
+                                        "Y2": 0.30115790367126466
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.737388523510666,
+                                        "X2": 0.7789190413428395,
+                                        "Y1": 0.28658881187438967,
+                                        "Y2": 0.3034860134124756
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.7960588056264634,
+                                        "X2": 0.8338986336254552,
+                                        "Y1": 0.291340708732605,
+                                        "Y2": 0.3066786527633667
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4600831101936",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.6953125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5262026910851326,
+                                        "X2": 0.5843027613041428,
+                                        "Y1": 0.21730802059173585,
+                                        "Y2": 0.2830347061157227
+                                    },
+                                    {
+                                        "Barcode": "4606068282080",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.70947265625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.7017921344546696,
+                                        "X2": 0.7616406300809704,
+                                        "Y1": 0.21556692123413085,
+                                        "Y2": 0.2833397388458252
+                                    },
+                                    {
+                                        "Barcode": "4606038054419",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.892578125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.2911286130780112,
+                                        "X2": 0.35395058781745903,
+                                        "Y1": 0.22307176589965821,
+                                        "Y2": 0.28196513652801514
+                                    },
+                                    {
+                                        "Barcode": "4603934001875",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.76220703125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.4129081035379813,
+                                        "X2": 0.4677298046671761,
+                                        "Y1": 0.22823996543884278,
+                                        "Y2": 0.27981879711151125
+                                    },
+                                    {
+                                        "Barcode": "4601642016440",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.78857421875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.23275575826369016,
+                                        "X2": 0.2894584028579442,
+                                        "Y1": 0.23013248443603515,
+                                        "Y2": 0.2807603120803833
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.974609375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.17268214389511252,
+                                        "X2": 0.2311461862490651,
+                                        "Y1": 0.21510112285614014,
+                                        "Y2": 0.28205695152282717
+                                    },
+                                    {
+                                        "Barcode": "4604369000143",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.28515625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5883383219993822,
+                                        "X2": 0.6418987992650884,
+                                        "Y1": 0.2388599395751953,
+                                        "Y2": 0.28216209411621096
+                                    },
+                                    {
+                                        "Barcode": "4607001710042",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.4951171875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.46863999699206554,
+                                        "X2": 0.5247301623674883,
+                                        "Y1": 0.24115142822265626,
+                                        "Y2": 0.28090672492980956
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.98974609375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.7613059846717287,
+                                        "X2": 0.8219264067174493,
+                                        "Y1": 0.23033487796783447,
+                                        "Y2": 0.2821146249771118
+                                    },
+                                    {
+                                        "Barcode": "4607811040049",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.9580078125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6457959670305996,
+                                        "X2": 0.6934816358488879,
+                                        "Y1": 0.2412477731704712,
+                                        "Y2": 0.28348093032836913
+                                    },
+                                    {
+                                        "Barcode": "4650075423790",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.92236328125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.15694217106306094,
+                                        "X2": 0.17276553532087344,
+                                        "Y1": 0.21711394786834717,
+                                        "Y2": 0.2796452283859253
+                                    }
+                                ],
+                                "X1": 0.15718775658900233,
+                                "X2": 0.8215512405697191,
+                                "Y1": 0.19690155982971191,
+                                "Y2": 0.19690155982971191
+                            },
+                            {
+                                "EmptySpaces": [],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.42659433227920135,
+                                        "X2": 0.4642638525034957,
+                                        "Y1": 0.727726411819458,
+                                        "Y2": 0.7437189102172852
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6028580204133065,
+                                        "X2": 0.6432357930988228,
+                                        "Y1": 0.7281710624694824,
+                                        "Y2": 0.7437391757965088
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.23281774610187955,
+                                        "X2": 0.2763726812991838,
+                                        "Y1": 0.7257196426391601,
+                                        "Y2": 0.7417349338531494
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4600494000416",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.66259765625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.379565696438443,
+                                        "X2": 0.4756426220753935,
+                                        "Y1": 0.6302847385406494,
+                                        "Y2": 0.7249629974365235
+                                    },
+                                    {
+                                        "Barcode": "4601025115401",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.52978515625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.28959181008552287,
+                                        "X2": 0.37731260365179503,
+                                        "Y1": 0.6335740566253663,
+                                        "Y2": 0.724581527709961
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.9501953125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6866470956157323,
+                                        "X2": 0.7728238458067768,
+                                        "Y1": 0.6300146579742432,
+                                        "Y2": 0.7298358917236328
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.95361328125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6207936551890934,
+                                        "X2": 0.6891610962295135,
+                                        "Y1": 0.6318897724151611,
+                                        "Y2": 0.7238118171691894
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.9951171875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5636025705645161,
+                                        "X2": 0.6200127735594433,
+                                        "Y1": 0.62848801612854,
+                                        "Y2": 0.7127224922180175
+                                    },
+                                    {
+                                        "Barcode": "4670010850764",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.8115234375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.2078390766505024,
+                                        "X2": 0.2915580820962864,
+                                        "Y1": 0.6380116939544678,
+                                        "Y2": 0.7260581016540527
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.96533203125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5080209468083376,
+                                        "X2": 0.5665007560483871,
+                                        "Y1": 0.6295095443725586,
+                                        "Y2": 0.719329833984375
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.9228515625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.46960522257698684,
+                                        "X2": 0.5098243102074662,
+                                        "Y1": 0.6320233345031738,
+                                        "Y2": 0.7231837272644043
+                                    }
+                                ],
+                                "X1": 0.20036455644653192,
+                                "X2": 0.7864612972327003,
+                                "Y1": 0.6285396575927734,
+                                "Y2": 0.6285396575927734
+                            },
+                            {
+                                "EmptySpaces": [
+                                    {
+                                        "Height": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.2258702813028421,
+                                        "X2": 0.3446154797858676,
+                                        "Y1": 0.10780524015426636,
+                                        "Y2": 0.1809485912322998
+                                    }
+                                ],
+                                "PriceTags": [
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.2139952438306858,
+                                        "X2": 0.26221006395417373,
+                                        "Y1": 0.18131446838378906,
+                                        "Y2": 0.2002497911453247
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.559625250491838,
+                                        "X2": 0.6029929836880528,
+                                        "Y1": 0.1851196527481079,
+                                        "Y2": 0.20217223167419435
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.47159845548663504,
+                                        "X2": 0.5199745964185256,
+                                        "Y1": 0.18359493017196654,
+                                        "Y2": 0.20215220451354982
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.16292079008580743,
+                                        "X2": 0.20691816665379487,
+                                        "Y1": 0.18209173679351806,
+                                        "Y2": 0.19984796047210693
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.4085374846046599,
+                                        "X2": 0.4562415719404429,
+                                        "Y1": 0.18205015659332274,
+                                        "Y2": 0.20108351707458497
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.35434417248268407,
+                                        "X2": 0.4031292362590238,
+                                        "Y1": 0.18108913898468018,
+                                        "Y2": 0.20136842727661133
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.2880189957157258,
+                                        "X2": 0.3364664925248764,
+                                        "Y1": 0.18107832670211793,
+                                        "Y2": 0.20029845237731933
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.6447468736789477,
+                                        "X2": 0.6896205429728148,
+                                        "Y1": 0.18305994272232057,
+                                        "Y2": 0.20406727790832518
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.7426857526542989,
+                                        "X2": 0.7891829189971384,
+                                        "Y1": 0.18633936643600463,
+                                        "Y2": 0.2038792848587036
+                                    },
+                                    {
+                                        "Confidence": 0.0,
+                                        "Height": 0.0,
+                                        "Value": 0.0,
+                                        "Width": 0.0,
+                                        "X1": 0.605440741150982,
+                                        "X2": 0.6413781268291493,
+                                        "Y1": 0.18376331329345702,
+                                        "Y2": 0.20244107246398926
+                                    }
+                                ],
+                                "Products": [
+                                    {
+                                        "Barcode": "4680036751976",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.673828125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.3446154797858676,
+                                        "X2": 0.40984456422549753,
+                                        "Y1": 0.10780524015426636,
+                                        "Y2": 0.1809485912322998
+                                    },
+                                    {
+                                        "Barcode": "4604369000143",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.90283203125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5866562667672022,
+                                        "X2": 0.643194573726912,
+                                        "Y1": 0.12028341293334961,
+                                        "Y2": 0.1820967435836792
+                                    },
+                                    {
+                                        "Barcode": "4600494693366",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.99169921875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.15955201147994438,
+                                        "X2": 0.2258702813028421,
+                                        "Y1": 0.1247633934020996,
+                                        "Y2": 0.18025436401367187
+                                    },
+                                    {
+                                        "Barcode": "4860019002367",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.6826171875,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5243831320930346,
+                                        "X2": 0.5839953625983676,
+                                        "Y1": 0.13193752765655517,
+                                        "Y2": 0.1817246437072754
+                                    },
+                                    {
+                                        "Barcode": "3179732338624",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.7646484375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.6464811358814061,
+                                        "X2": 0.7075310904575313,
+                                        "Y1": 0.13624241352081298,
+                                        "Y2": 0.1837819218635559
+                                    },
+                                    {
+                                        "Barcode": "4680000237994",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.74267578125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.4124720292582596,
+                                        "X2": 0.4679635293029722,
+                                        "Y1": 0.14494937658309937,
+                                        "Y2": 0.17940936088562012
+                                    }
+                                ],
+                                "X1": 0.16225203912042307,
+                                "X2": 0.8215344733675859,
+                                "Y1": 0.09247046709060669,
+                                "Y2": 0.09247046709060669
+                            },
+                            {
+                                "EmptySpaces": [],
+                                "PriceTags": [],
+                                "Products": [
+                                    {
+                                        "Barcode": "4860019001810",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.8203125,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.38318493512617063,
+                                        "X2": 0.44940401488114595,
+                                        "Y1": 0.5132869720458985,
+                                        "Y2": 0.6063249111175537
+                                    },
+                                    {
+                                        "Barcode": "4603934000977",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.378662109375,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.449266860437939,
+                                        "X2": 0.5029945016279429,
+                                        "Y1": 0.540471076965332,
+                                        "Y2": 0.6071009635925293
+                                    },
+                                    {
+                                        "Barcode": "4650075423776",
+                                        "CategoryProductClassifier": "",
+                                        "Confidence": 0.44384765625,
+                                        "Height": 0.0,
+                                        "SuperCategoryId": 42,
+                                        "VerificationStatus": "NotVerified",
+                                        "Width": 0.0,
+                                        "X1": 0.5037719218465465,
+                                        "X2": 0.5559642843351652,
+                                        "Y1": 0.5450920581817627,
+                                        "Y2": 0.6102280139923095
+                                    }
+                                ],
+                                "X1": 0.410281368894706,
+                                "X2": 0.5458318767885015,
+                                "Y1": 0.5227141380310059,
+                                "Y2": 0.5227141380310059
+                            }
+                        ],
+                        "UnrecognizedProducts": [
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8918862238634886,
+                                "X2": 0.9994723412298387,
+                                "Y1": 0.7687692642211914,
+                                "Y2": 0.8864445686340332
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8888376416574532,
+                                "X2": 0.9240430500455254,
+                                "Y1": 0.20138673782348632,
+                                "Y2": 0.2706113338470459
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8384793824385406,
+                                "X2": 0.9335711396819719,
+                                "Y1": 0.6507979393005371,
+                                "Y2": 0.7525486946105957
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9455825535737513,
+                                "X2": 0.9993778351814516,
+                                "Y1": 0.648914098739624,
+                                "Y2": 0.7477476596832275
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9448618179305411,
+                                "X2": 0.9965417645600286,
+                                "Y1": 0.3421049118041992,
+                                "Y2": 0.3870130777359009
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8791832899079735,
+                                "X2": 0.9448699474830905,
+                                "Y1": 0.3375821590423584,
+                                "Y2": 0.38597912788391114
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.858286148055411,
+                                "X2": 0.9109157915542079,
+                                "Y1": 0.572666597366333,
+                                "Y2": 0.6170773983001709
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9169994278827394,
+                                "X2": 0.9894806130495577,
+                                "Y1": 0.5643627166748046,
+                                "Y2": 0.6291372299194335
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8411465107960457,
+                                "X2": 0.8947864417354969,
+                                "Y1": 0.7719850063323974,
+                                "Y2": 0.8483555793762207
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9884091634283949,
+                                "X2": 0.9991169908664477,
+                                "Y1": 0.20100488662719726,
+                                "Y2": 0.2731118440628052
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8857433307183272,
+                                "X2": 0.9447917005398023,
+                                "Y1": 0.41914215087890627,
+                                "Y2": 0.4874481201171875
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.0,
+                                "X2": 0.05495493369841799,
+                                "Y1": 0.7035173416137696,
+                                "Y2": 0.8103565216064453
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.0,
+                                "X2": 0.08419491770860432,
+                                "Y1": 0.9469368934631348,
+                                "Y2": 0.9982561111450196
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8918862238634886,
+                                "X2": 0.9994723412298387,
+                                "Y1": 0.7687692642211914,
+                                "Y2": 0.8864445686340332
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8888376416574532,
+                                "X2": 0.9240430500455254,
+                                "Y1": 0.20138673782348632,
+                                "Y2": 0.2706113338470459
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8384793824385406,
+                                "X2": 0.9335711396819719,
+                                "Y1": 0.6507979393005371,
+                                "Y2": 0.7525486946105957
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9455825535737513,
+                                "X2": 0.9993778351814516,
+                                "Y1": 0.648914098739624,
+                                "Y2": 0.7477476596832275
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9448618179305411,
+                                "X2": 0.9965417645600286,
+                                "Y1": 0.3421049118041992,
+                                "Y2": 0.3870130777359009
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8791832899079735,
+                                "X2": 0.9448699474830905,
+                                "Y1": 0.3375821590423584,
+                                "Y2": 0.38597912788391114
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.858286148055411,
+                                "X2": 0.9109157915542079,
+                                "Y1": 0.572666597366333,
+                                "Y2": 0.6170773983001709
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9169994278827394,
+                                "X2": 0.9894806130495577,
+                                "Y1": 0.5643627166748046,
+                                "Y2": 0.6291372299194335
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8411465107960457,
+                                "X2": 0.8947864417354969,
+                                "Y1": 0.7719850063323974,
+                                "Y2": 0.8483555793762207
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.9884091634283949,
+                                "X2": 0.9991169908664477,
+                                "Y1": 0.20100488662719726,
+                                "Y2": 0.2731118440628052
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.8857433307183272,
+                                "X2": 0.9447917005398023,
+                                "Y1": 0.41914215087890627,
+                                "Y2": 0.4874481201171875
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.0,
+                                "X2": 0.05495493369841799,
+                                "Y1": 0.7035173416137696,
+                                "Y2": 0.8103565216064453
+                            },
+                            {
+                                "Height": 0.0,
+                                "Width": 0.0,
+                                "X1": 0.0,
+                                "X2": 0.08419491770860432,
+                                "Y1": 0.9469368934631348,
+                                "Y2": 0.9982561111450196
+                            }
+                        ]
+                    }
+                ],
+                "EquipmentId": 3,
+                "PhotoExternalId": "AhAFZlZY8X2ColAS"
+            }
+        ],
+        "PriceTagsDetectorVersion": "1.0",
+        "ShelvesDetectorVersion": "1.0",
+        "SkuDetectorVersion": "1.0",
+        "StoreId": 51085
+    }
+}
