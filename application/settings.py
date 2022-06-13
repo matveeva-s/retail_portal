@@ -6,7 +6,17 @@ SECRET_KEY = 'django-insecure-xd0zd572fuv(l_b+p3r3x#a=u#gf$=beqgogf462%m5tux1@$+
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['51.250.44.149']
+ALLOWED_HOSTS = ['*']
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        # 'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ]
+}
 
 
 INSTALLED_APPS = [
@@ -17,8 +27,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
     'recognizer_api',
+    'scan_and_train',
+    'users',
 ]
+
+AUTH_USER_MODEL = 'users.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -49,25 +64,22 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'application.wsgi.application'
-
+LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/api/visits/'
 
 DATABASES = {
-    'default1': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    },
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqllite',
-    #     'NAME': 'merch',
-    #     'USER': 'delphin',
-    #     'PASSWORD': 'Ground0!',
-    #     'HOST': 'rc1c-0nghv25i1se4p8kd.mdb.yandexcloud.net',
-    #     'PORT': '6432',
-    #     'OPTIONS': {
-    #         'sslmode': 'verify-full',
-    #     }
-    # },
     'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'merch',
+        'USER': 'delphin',
+        'PASSWORD': 'Ground0!',
+        'HOST': 'rc1c-0nghv25i1se4p8kd.mdb.yandexcloud.net',
+        'PORT': '6432',
+        'OPTIONS': {
+            # 'sslmode': 'verify-full',
+        }
+    },
+    'recognizer': {
         'ENGINE': 'mssql',
         'NAME': 'RecognizerAPI',
         'USER': 'popkov.pavel',
@@ -76,11 +88,19 @@ DATABASES = {
         'PORT': '1805',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            # 'SQL_INFX_ATTR_ODBC_TYPES_ONLY': True,
-            # 'encrypt': False,
-            # 'trustServerCertificate': True,
         }
-    }
+    },
+    'scan_and_train': {
+        'ENGINE': 'mssql',
+        'NAME': 'ScanAndTrain',
+        'USER': 'popkov.pavel',
+        'PASSWORD': 'nM16Volo',
+        'HOST': '185.41.187.218',
+        'PORT': '1805',
+        'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Server',
+        }
+    },
 }
 
 

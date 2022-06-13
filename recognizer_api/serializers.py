@@ -3,6 +3,7 @@ from recognizer_api.models import (
     Visits, Categories, Visitequipments, Visitbays, Visitshelves,
     Visitshelfemptyspaces, Visitshelfproducts, Visitshelfpricetags,
 )
+from scan_and_train.models import Sku
 
 
 class VisitsSerializer(serializers.ModelSerializer):
@@ -11,6 +12,7 @@ class VisitsSerializer(serializers.ModelSerializer):
     store_type = serializers.SerializerMethodField()
     store_retailer = serializers.SerializerMethodField()
     category = serializers.SerializerMethodField()
+    completion_date = serializers.SerializerMethodField()
 
     def get_store_address(self, instance):
         return instance.storeid.address
@@ -30,7 +32,7 @@ class VisitsSerializer(serializers.ModelSerializer):
             return None
         category_id = instance.visitequipments_set.first().supercategoryid
         try:
-            name = Categories.objects.get(id=category_id).name
+            name = Categories.objects.using('recognizer').get(id=category_id).name
             return name
         except Categories.DoesNotExist:
             return None
@@ -73,8 +75,8 @@ class ProductSerializer(serializers.ModelSerializer):
         model = Visitshelfproducts
         fields = (
             'id', 'x1', 'x2', 'y1', 'y2', 'height', 'width',
-            'barcode', 'category_id', 'verification_status',
-            'classifier', 'confidence',
+            'barcode', 'correctbarcode', 'category_id',
+            'verification_status', 'classifier', 'confidence',
         )
 
 
@@ -136,4 +138,19 @@ class VisitSerializer(serializers.ModelSerializer):
         model = Visits
         fields = (
             'id', 'photolinks', 'completion_date', 'equipments',
+        )
+
+
+class VisitProductsSerializer(serializers.ModelSerializer):
+    photo_link = serializers.CharField(source='photolink')
+    short_name = serializers.CharField(source='shortname')
+    brand = serializers.SerializerMethodField()
+
+    def get_brand(self, instance):
+        return instance.brandid.title if instance.brandid else None
+
+    class Meta:
+        model = Sku
+        fields = (
+            'id', 'barcode', 'photo_link', 'short_name', 'brand',
         )
