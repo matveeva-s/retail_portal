@@ -1,9 +1,16 @@
+from collections import Counter
+
+from django.db.models import Q
 from rest_framework import serializers
+
 from recognizer_api.models import (
     Visits, Categories, Visitequipments, Visitbays, Visitshelves,
     Visitshelfemptyspaces, Visitshelfproducts, Visitshelfpricetags,
+    Storetypes, Regions, Stores, Storenetworks,
 )
 from scan_and_train.models import Sku
+
+from recognizer_api.helpers import round_with_precision
 
 
 class VisitsSerializer(serializers.ModelSerializer):
@@ -113,11 +120,19 @@ class VisitBaysSerializer(serializers.ModelSerializer):
 
 class VisitEquipmentsSerializer(serializers.ModelSerializer):
     bays = VisitBaysSerializer(source='visitbays_set', many=True)
+    category = serializers.SerializerMethodField()
+
+    def get_category(self, equipment):
+        try:
+            name = Categories.objects.using('recognizer').get(id=equipment.supercategoryid).name
+            return name
+        except Categories.DoesNotExist:
+            return None
 
     class Meta:
         model = Visitequipments
         fields = (
-            'id', 'bays'
+            'id', 'equipmenttypeid', 'category', 'bays',
         )
 
 
@@ -153,4 +168,78 @@ class VisitProductsSerializer(serializers.ModelSerializer):
         model = Sku
         fields = (
             'id', 'barcode', 'photo_link', 'short_name', 'brand',
+        )
+
+
+class StoreTypesOptionsSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Storetypes
+        fields = (
+            'id', 'name',
+        )
+
+
+class RegionsOptionsSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Regions
+        fields = (
+            'id', 'name',
+        )
+
+
+class StorenetworksOptionsSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Storenetworks
+        fields = (
+            'id', 'name',
+        )
+
+
+class AddressOptionsSerializer(serializers.ModelSerializer):
+    name = serializers.CharField(source='address')
+
+    class Meta:
+        model = Stores
+        fields = (
+            'id', 'name',
+        )
+
+
+class AssortmentSerializer(serializers.ModelSerializer):
+    short_name = serializers.CharField(source='shortname')
+    distribution = serializers.SerializerMethodField()
+    facing_amount = serializers.SerializerMethodField()
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.qs = self.context.pop('_qs')
+
+    def get_product_visits(self, product):
+        return self.qs.filter(
+            Q(
+                visitequipments__visitbays__visitshelves__visitshelfproducts__barcode=product.barcode,
+                visitequipments__visitbays__visitshelves__visitshelfproducts__correctbarcode__isnull=True,
+            ) |
+            Q(visitequipments__visitbays__visitshelves__visitshelfproducts__correctbarcode=product.barcode)
+        ).distinct()
+
+    def get_distribution(self, product):
+        qset = self.get_product_visits(product)
+        return round_with_precision(qset.count() / self.qs.distinct().count())
+
+    def get_facing_amount(self, product):
+        qset = self.get_product_visits(product)
+        qset_facings = qset.values_list('visitequipments__visitbays__visitshelves__visitshelfproducts', flat=True)
+        facings = 0
+        if qset_facings.exists():
+            facings = (qset_facings.count()) / (qset.count())
+        return round_with_precision(facings)
+
+    class Meta:
+        model = Sku
+        fields = (
+            'id', 'barcode', 'short_name', 'name', 'distribution', 'facing_amount'
         )

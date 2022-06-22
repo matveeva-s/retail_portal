@@ -379,7 +379,7 @@ class Sku(models.Model):
     # volumeid = models.ForeignKey('Volumes', models.DO_NOTHING, db_column='VolumeId', blank=True, null=True)  # Field name made lowercase.
     imageurl = models.TextField(db_column='ImageUrl', db_collation='Cyrillic_General_CI_AS', blank=True, null=True)  # Field name made lowercase.
     # manafacturer = models.TextField(db_column='Manafacturer', db_collation='Cyrillic_General_CI_AS', blank=True, null=True)  # Field name made lowercase.
-    # name = models.TextField(db_column='Name', db_collation='Cyrillic_General_CI_AS', blank=True, null=True)  # Field name made lowercase.
+    name = models.TextField(db_column='Name', db_collation='Cyrillic_General_CI_AS', blank=True, null=True)  # Field name made lowercase.
     # englishname = models.TextField(db_column='EnglishName', db_collation='Cyrillic_General_CI_AS', blank=True, null=True)  # Field name made lowercase.
     # manafacturerid = models.ForeignKey(Manafacturer, models.DO_NOTHING, db_column='ManafacturerId', blank=True, null=True)  # Field name made lowercase.
     # adoptedphotoscount = models.IntegerField(db_column='AdoptedPhotosCount')  # Field name made lowercase.
