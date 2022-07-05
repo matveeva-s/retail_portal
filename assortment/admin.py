@@ -1,3 +1,8 @@
 from django.contrib import admin
+from assortment.models import *
 
-# Register your models here.
+
+admin.site.register(RecommendedMatrix)
+admin.site.register(ContractMatrix)
+admin.site.register(RecommendedAssortment)
+admin.site.register(ContractAssortment)

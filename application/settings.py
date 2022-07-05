@@ -15,7 +15,8 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
-    ]
+    ],
+    'DATE_INPUT_FORMATS': ["%d.%m.%Y", ],
 }
 
 
@@ -27,10 +28,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'django_extensions',
     'rest_framework.authtoken',
     'recognizer_api',
     'scan_and_train',
     'users',
+    'assortment'
 ]
 
 AUTH_USER_MODEL = 'users.User'
