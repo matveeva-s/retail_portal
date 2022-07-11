@@ -31,6 +31,26 @@ def contract_matrix_options(request):
     })
 
 
+class RetailersOptions(ListAPIView):
+    queryset = Storenetworks.objects.using('recognizer').all()
+    serializer_class = StorenetworksOptionsSerializer
+
+
+class StoreTypesOptions(ListAPIView):
+    queryset = Storetypes.objects.using('recognizer').all()
+    serializer_class = StoreTypesOptionsSerializer
+
+
+class RegionsOptions(ListAPIView):
+    queryset = Regions.objects.using('recognizer').all()
+    serializer_class = RegionsOptionsSerializer
+
+
+class StoresOptions(ListAPIView):
+    queryset = Stores.objects.using('recognizer').all()
+    serializer_class = AddressOptionsSerializer
+
+
 class RecommendedMatrixCalculationView(ListAPIView):
     serializer_class = AssortmentSerializer
     pagination_class = ContractMatrixPagination

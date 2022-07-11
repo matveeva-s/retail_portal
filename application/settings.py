@@ -1,4 +1,6 @@
 from pathlib import Path
+from datetime import timedelta
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -12,11 +14,30 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         # 'rest_framework.permissions.IsAuthenticated',
     ],
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+    # 'DEFAULT_AUTHENTICATION_CLASSES': [
+    #     'rest_framework.authentication.BasicAuthentication',
+    #     'rest_framework.authentication.SessionAuthentication',
+    # ],
     'DATE_INPUT_FORMATS': ["%d.%m.%Y", ],
+}
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=24*60),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=14),
+    'ROTATE_REFRESH_TOKENS': True,
+    'BLACKLIST_AFTER_ROTATION': True,
+    'ALGORITHM': 'HS256',
+    'SIGNING_KEY': SECRET_KEY,
+    'VERIFYING_KEY': None,
+    'AUTH_HEADER_TYPES': ('JWT',),
+    'USER_ID_FIELD': 'id',
+    'USER_ID_CLAIM': 'user_id',
+    'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),
+    'TOKEN_TYPE_CLAIM': 'token_type',
 }
 
 
@@ -33,7 +54,8 @@ INSTALLED_APPS = [
     'recognizer_api',
     'scan_and_train',
     'users',
-    'assortment'
+    'assortment',
+    'auth_jwt',
 ]
 
 AUTH_USER_MODEL = 'users.User'
@@ -84,10 +106,11 @@ DATABASES = {
     },
     'recognizer': {
         'ENGINE': 'mssql',
-        'NAME': 'RecognizerAPI',
+        'NAME': 'MobileEye',
         'USER': 'popkov.pavel',
         'PASSWORD': 'nM16Volo',
-        'HOST': '185.41.187.218',
+        # 'HOST': '185.41.187.218',
+        'HOST': '217.65.3.240',
         'PORT': '1805',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
